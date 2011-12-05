@@ -1,0 +1,41 @@
+* { margin: 0; padding: 0; }
+
+body {
+	font: 10px Verdana, sans-serif;
+	color: #000;
+	background: #f4f4f4;
+	line-height: 1;
+	margin: 0 !important;
+	padding: 0 !important;
+}
+
+#content {
+	width: 740px;
+	margin: 50px auto 0 auto;
+}
+
+a img { border: none; }
+
+#links {
+	background: #fff;
+	color: #000;
+	font-weight: bold;
+	padding: 10px;
+    line-height: 1.5em;
+}
+
+#links a {
+	color: #000;
+}
+
+#links a:active {
+	color: #000;
+}
+
+#links a:visited {
+	color: #000;
+}
+
+#links a:hover {
+	color: #444;
+}

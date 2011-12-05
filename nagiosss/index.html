@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>OnCall for Nagios (iOS)</title>
+        <link href="bootstrap.min.css" rel="stylesheet">
+        <link rel="shortcut icon" type="image/x-icon" href="assets/ico/favicon.ico">
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="topbar-inner">
+                <div class="container">
+                    <a class="brand" href="#">OnCall for Nagios</a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" style="margin-top: 50px;">
+            <div class="page-header">
+                <h2 class="pull-left">About</h2>
+                <div class="pull-right" style="margin-top: 8px;"><a href="http://bit.ly/nagiosss"><img src="viewinitunes_en.png"/></a></div>
+                <div style="clear: both;"></div>
+            </div>
+            <div class="row">
+                <div class="span5" style="text-align: center;">
+                    <a href="http://bit.ly/nagiosss"><img src="oncall_for_nagios.png"/></a><br/>
+                    <div><strong>Version:</strong> <span class="label notice">&nbsp;2.0&nbsp;</span></div><br/>
+                    <a href="http://bit.ly/nagiosss"><img src="available_on_appstore.png"/></a><br/>
+                    <div style="color: #aaa;">
+                        OnCall for Nagios works with iPhone 4S, iPhone 4, iPhone 3GS, iPhone 3G, the original iPhone, and iPod touch.
+                    </div>
+                </div>
+                <div class="span11">
+                    <p><strong>OnCall for Nagios</strong> is a simple, intuitive, and powerful interface to your existing <a href="http://www.nagios.org/">Nagios</a> installation.
+                    <p>Setup is easy - just enter your Nagios url (and optional username/password for HTTP authentication) - it just works. There's no need for additional server side configuration.
+                    <div class="page-header">
+                        <h4>Features</h4>
+                    </div>
+                    <ul>
+                        <li>summary view of problems with highlights for warning/critical/acknowledged issues
+                        <li>multiple nagios instance settings
+                        <li>ability to see service level detail
+                        <li><span class="label success">New</span> perform actions on a host with quick access from problems view
+                        <li>easy to see status coloring and notification state from problems view
+                        <li><span class="label success">New</span> ability to filter the services shown on the problems view based on state
+                        <li>ability to quickly acknowledge an issue with a user specified default message
+                        <li>swipe to acknowledge on problems view
+                        <li>ability to acknowledge an issue with a custom, one-time, message
+                        <li>ability to reschedule another check of a service
+                        <li>ability to schedule downtime for a service
+                        <li><span class="label">Updated</span> browse hosts by all, service-group, and host-group
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <div class="page-header">
+                <h2>Screen Shots</h2>
+            </div>
+            <div class="row">
+                <div class="span-one-third" style="text-align: center">
+                    <img src="sshot1.png"/>
+                </div>
+                <div class="span-one-third" style="text-align: center">
+                    <img src="sshot2.png"/>
+                </div>
+                <div class="span-one-third" style="text-align: center">
+                    <img src="sshot3.png"/>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container" style="margin-top: 20px;">
+            <div class="page-header">
+                <h2>Frequently Answered Questions</h2>
+            </div>
+            <div class="row">
+                <div class="span2"><h2 align="right">#1</h2></div>
+                <div class="span14">
+                    <div class="alert-message block-message warning">
+                        <h5>It's not working and I know my settings are right...</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="span2">&nbsp;</div>
+                <div class="span14">
+                    <div class="alert-message block-message success">
+                        <p><strong>OnCall for Nagios</strong> is pretty good at letting you know when an HTTP request it's making failed.<br/><br/>
+                        <p>If there isn't any obvious error message presented, check the following items:<br/><br/>
+                        <p><ol>
+                            <li>Make sure the username and password you entered is correct.
+                            <li>Make sure that the URL you've entered is to the <strong>/cgi-bin/</strong> directory for the given Nagios installation.
+                            <li>Check the Nagios web-server logs to ensure it is seeing the requests from the app and they are returning the 200 HTTP response code.
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <footer class="footer">
+            <div class="container">
+                <p class="pull-right"><a href="#">Back to top</a></p>
+                <p>Built by <strong><a href="http://twitter.com/imsnakes">Matt Reiferson</a></strong>, <strong><a href="http://www.visionaryrenesis.com/">Visionary Renesis Corp.</a></strong> &copy; 2011<br/>
+                <a href="http://twitter.com/imsnakes"><img src="twitter.png"/></a>
+            </div>
+        </footer>
+    </body>
+</html>
