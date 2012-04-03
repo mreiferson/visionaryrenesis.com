@@ -22,6 +22,7 @@ a img { border: none; }
 	font-weight: bold;
 	padding: 10px;
     line-height: 1.5em;
+    text-align: center;
 }
 
 #links a {
